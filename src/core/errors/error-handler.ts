@@ -1,5 +1,4 @@
 import type { ErrorRequestHandler } from "express";
-import type { } from "pino-http";
 
 import { AppError } from "./app-error.js";
 import { logger } from "../logger/logger.js";
