@@ -51,7 +51,6 @@ server.listen(env.PORT, () => {
     logger.info(
         {
             port: env.PORT,
-            environment: env.NODE_ENV
         },
         "Payment infrastructure started"
     );
